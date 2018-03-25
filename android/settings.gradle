@@ -1,0 +1,5 @@
+rootProject.name = 'testclient'
+include ':fxa-react-native-app-auth'
+project(':fxa-react-native-app-auth').projectDir = new File(rootProject.projectDir, '../node_modules/fxa-react-native-app-auth/android')
+
+include ':app'
